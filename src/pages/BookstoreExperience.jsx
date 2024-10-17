@@ -21,16 +21,16 @@ export const BookstoreExperience = () => {
           <div className="nav-link">
             <div className="nav-label">Our Story</div>
           </div>          
-          <button className="button">
+          <div className="button">
             <div className="text-container">
               <button className="CTA">User Login</button>
             </div>
-          </button>
-          <button className="text-container-wrapper">
+          </div>
+          <div className="text-container-wrapper">
             <div className="text-container">
               <button className="text-wrapper">Create Account</button>
             </div>
-          </button>
+          </div>
         </div>
       </div>
       <div className="type-stacked-medium">
@@ -91,11 +91,11 @@ export const BookstoreExperience = () => {
                 </div>
               </div>
             </div>
-            <button className="div-wrapper">
+            <div className="div-wrapper">
               <div className="text-container-2">
                 <button className="CTA-3">Sign in with Email</button>
               </div>
-            </button>
+            </div>
           </div>
           <p className="by-continuing-you">By signing in, you accept our Terms and Privacy Policy.</p>
         </div>

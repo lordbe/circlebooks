@@ -21,7 +21,7 @@ export default function ButtonBuy_cmp({keyButton}) {
             </div>
           </div>
         )}
-        <small style={{"font-size": "7px"}}>{currentMessage}</small>
+        <text style={{'font-size': '6px'}}>{currentMessage}</text>
         <button
           type="button"
           className="btn btn-outline-warning"

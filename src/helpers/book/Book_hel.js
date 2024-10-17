@@ -1,8 +1,9 @@
-const path ="https://7cd1-181-115-171-225.ngrok-free.app/";//"http://localhost:8000";
+const path ="http://localhost:8000";//"https://160b-181-115-171-225.ngrok-free.app";//"http://localhost:8000";
 
 export const getBooks = async () =>{
     const url = `${path}/books`;
     const response = await fetch(url);
+    //var xres = await response.json();    
     const {books} = await response.json();
     
     const eBook = books.map(book=>({
@@ -21,7 +22,7 @@ export const getBooks = async () =>{
 
   export const getBook = async (id) =>{    
     const url = `${path}/books/${id}`;
-    const response = await fetch(url);
+    const response = await fetch(url);    
     const {book} = await response.json();    
   
     //console.log(JSON.stringify(book));
